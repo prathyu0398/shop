@@ -1,0 +1,497 @@
+/* .mySlides {display:none;} */
+
+#nav_bar
+{
+    position: relative;
+    background-color: white;
+    margin-top: -0px;
+    z-index: 1000;
+}
+
+.nav-link {
+    padding-top: 0px;
+}
+
+.nav_name:hover{
+    color: #000000;
+}
+
+.nav-link::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: red;
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 5px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 5%;
+}
+
+.navbar-toggler
+{
+    position: static;
+    margin-left: auto;
+}
+
+nav
+{
+    background-color: white;
+}
+
+ul li
+{
+    font-size: 19px;
+}
+
+
+.container-fluid
+{
+    padding: 2% 3%;
+}
+
+.signup
+{
+    margin-left: 500px;
+}
+
+html
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.mySlides {display:none;}
+
+#products img:hover
+{
+     position: relative; 
+    top: -10px;
+} 
+
+#partners img:hover
+{
+    position: relative; 
+    top: -10px;
+} 
+
+
+#home
+{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+    #home
+    {
+        margin-top: 50px;
+    }
+}
+
+img{
+    cursor: pointer;
+}
+
+#divi1
+{
+    background: black;
+    width: 100%;
+}
+
+#he1
+{
+    font-size: 20px; 
+    margin-right: 15%;
+    margin-left: 15%;  
+    color: white;
+    padding-bottom: 5%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+            0px 8px 13px rgba(0,0,0,0.1),
+            0px 18px 23px rgba(0,0,0,0.1);
+}
+
+body
+{
+    background: url(a1.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    }
+
+#he2
+{
+    padding-left: 45%;
+    text-transform: uppercase;
+    padding-top: 5%;
+    color: black;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+            0px 8px 13px rgba(0,0,0,0.1),
+            0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#divi2
+{
+background: rgba(0,0,0,0.3);
+}
+
+#he3
+{
+text-transform: uppercase;
+padding-left: 43%;
+}
+
+#i1,#i2,#i3,#i4,#i5,#i6,#i7{
+width: 70%;
+margin-left: 5%;
+margin-right: 25%;
+}
+
+#b1, #b2, #b3, #b4, #b5, #b6
+{
+    margin-left: 18%;
+    margin-top: 6%;
+}
+
+#i8,#i9,#i10,#i11
+{
+    width: 20%;
+    float: left;
+    margin: 1.96%;
+}
+
+#he4
+{
+    padding-left: 40%;
+    text-transform: uppercase;
+}
+
+form
+{
+    padding-left: 30%;
+}
+
+#subs{
+    padding-left: 30%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+            0px 8px 13px rgba(0,0,0,0.1),
+            0px 18px 23px rgba(0,0,0,0.1);
+}
+
+input{
+    margin-left: 3%;
+    margin:auto auto; 
+}
+
+label
+{
+    width: 100px ;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+            0px 8px 13px rgba(0,0,0,0.1),
+            0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#divi5
+{
+    background: rgba(0,0,0,0.3);
+    margin-top: 20%;
+    padding-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 3%;
+}
+
+#sbutt{
+    margin-left: 15%;
+}
+
+.footer{
+    width:100%;
+    height:auto;
+    float:left;
+    clear:both;
+    background-color: #fff;
+    position:relative;
+}
+/* ELEMENT - footer__content */
+.footer__content{
+    clear:both;
+}
+/* ELEMENT MODIFIER footer__content  */
+.footer__content--fix-width{
+    width:1240px;
+    margin:auto;
+    clear:both;
+}
+.footer__content--fluid-width{
+    width:80%;
+    margin:auto;
+    clear:both;
+}
+.footer__content--padding{
+    padding:100px 0;
+}
+.footer__content--svg{
+    padding-top:100px;
+}
+.grid__title--footer-logo{
+    font-size:18px;
+    letter-spacing:1px;	font-weight:700;
+}
+.grid__title--footer-logo span{
+    font-weight:700;
+}
+.grid__title--footer{
+    font-size:20px;
+    font-weight:700;
+}
+.grid__text--copyright{
+    color:slategray;
+    line-height:22px;
+}
+#footer{
+    margin-top: 10px;
+    background:black;
+}
+        
+.row{
+    overflow: hidden; 
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.p
+{
+    height: 500px;
+}
+
+#b1
+{
+    margin-top: 25px;
+}
+
+#products{
+    margin-top: 55px;
+}
+
+#partners
+{
+    padding-top: 25px;
+    margin-top: 70px;
+
+}
+
+.grid{
+    width:100%;
+    float:left;
+    clear:both;
+  }
+  .grid__item--padding{
+    background-color:#f7f8f9;
+  }
+  .grid__item--centering{
+    text-align:center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  /* -----------------------------------------------------  */
+  /* ELEMENT grid__item BASED ON BLOCK MODIFIER grid--2col  */
+  .grid--2col .grid__item{
+    float:left;
+    margin-right:80px;
+    margin-bottom:80px;
+              /* full width - space between cols / number of cols */
+    width: calc((100% - 80px) / 2); 
+  }
+  .grid--2col .grid__item--padding{
+              /* full width - space between cols - padding * nr of paddings / number of cols */
+    width: calc((100% - 80px - 20px * 4) / 2);
+    padding:20px;
+  }
+  .grid .grid__item:last-child, 
+  .grid--2col .grid__item:nth-child(2n+2){
+    float:right;
+    margin-right:0px;
+  }
+  /* -----------------------------------------------------  */
+  /* ELEMENT grid__item BASED ON BLOCK MODIFIER grid--3col  */
+  .grid--3col .grid__item{
+    float:left;
+    margin-right:80px;
+    margin-bottom:80px;
+              /* full width - space between cols * nr of inner spaces / number of cols */
+    width: calc((100% - 80px * 2) / 3);
+  }
+  .grid--3col .grid__item.grid__item--padding{
+            /* full width - space between cols * nr of inner spaces - padding * nr of paddings / number of cols */
+    width: calc((100% - 80px * 2 - 20px * 6) / 3);
+    padding:20px;
+  }
+  .grid--3col .grid__item--x2{
+              /*(      one grid item    ) * 2 + space between cols */
+    width: calc((((100% - 80px * 2) / 3) * 2) + 80px);
+  }
+  .grid--3col .grid__item--x2.grid__item--padding{
+    
+            /*   (    one grid item with padding  ) * 2 + space between cols + padding */
+    width: calc((((100% - 80px * 2 - 20px * 6) / 3) * 2) + 80px + 20px * 2);
+    padding:20px;
+  }
+  .grid--3col .grid__item:nth-child(3n+3){
+    float:right;
+    margin-right:0px;
+  }
+  /* -----------------------------------------------------  */
+  /* ELEMENT grid__item BASED ON BLOCK MODIFIER grid--4col  */
+  .grid--4col .grid__item{
+    float:left;
+    margin-right:80px;
+    margin-bottom:80px;
+              /* full width - space between cols * nr of inner spaces / number of cols */
+    width: calc((100% - 80px * 3) / 4);
+  }
+  .grid--4col .grid__item.grid__item--padding{
+            /* full width - space between cols * nr of inner spaces - padding * nr of paddings / number of cols */
+    width: calc((100% - 80px * 3 - 20px * 8) / 4);
+    padding:20px;
+  }
+  .grid--4col .grid__item--x3{
+              /*(      one grid item    ) * 3 + space between cols */
+    width: calc((((100% - 80px * 3) / 4) * 3) + 80px * 2);
+  }
+  .grid--4col .grid__item--x3.grid__item--padding{
+    
+            /*   (    one grid item with padding  ) * 3 + space between cols + padding */
+    width: calc((((100% - 80px * 3 - 20px * 8) / 4) * 3) + 80px * 2 + 20px * 4);
+    padding:20px;
+  }
+  .grid--4col .grid__item:nth-child(4n+4){
+    float:right;
+    margin-right:0px;
+  }
+  /* -----------------------------------------------------  */
+  /* ELEMENT grid__item BASED ON BLOCK MODIFIER grid--5col  */
+  .grid--5col .grid__item{
+    float:left;
+    margin-right:80px;
+    margin-bottom:80px;
+              /* full width - space between cols * nr of inner spaces / number of cols */
+    width: calc((100% - 80px * 4) / 5);
+  }
+  .grid--5col .grid__item.grid__item--padding{
+            /* full width - space between cols * nr of inner spaces - padding * nr of paddings / number of cols */
+    width: calc((100% - 80px * 4 - 20px * 10) / 5);
+    padding:20px;
+  }
+  .grid--5col .grid__item--x2{
+              /*(      one grid item    ) * 2 + space between cols */
+    width: calc((((100% - 80px * 4) / 5) * 2) + 80px);
+  }
+  .grid--5col .grid__item--x2.grid__item--padding{
+    
+            /*   (    one grid item with padding  ) * 2 + space between cols + padding */
+    width: calc((((100% - 80px * 4 - 20px * 10) / 5) * 2) + 80px + 20px * 2);
+    padding:20px;
+  }
+  .grid--5col .grid__item--x3{
+              /*(      one grid item    ) * 3 + space between cols */
+    width: calc((((100% - 80px * 4) / 5) * 3) + 80px * 2);
+  }
+  .grid--5col .grid__item--x3.grid__item--padding{
+    
+            /*   (    one grid item with padding  ) * 3 + space between cols + padding */
+    width: calc((((100% - 80px * 4 - 20px * 10) / 5) * 3) + 80px * 2 + 20px * 4);
+    padding:20px;
+  }
+  .grid--5col .grid__item--x4{
+              /*(      one grid item    ) * 4 + space between cols */
+    width: calc((((100% - 80px * 4) / 5) * 4) + 80px * 3);
+  }
+  .grid--5col .grid__item--x4.grid__item--padding{
+    
+            /*   (    one grid item with padding  ) * 4 + space between cols + padding */
+    width: calc((((100% - 80px * 4 - 20px * 10) / 5) * 4) + 80px * 3 + 20px * 6);
+    padding:20px;
+  }
+  .grid--5col .grid__item:nth-child(5n+5){
+    float:right;
+    margin-right:0px;
+  }
+  /* -----------------------------------------------------  */
+  /* ELEMENT grid__item BASED ON BLOCK MODIFIER grid--6col  */
+  .grid--6col .grid__item{
+    float:left;
+    margin-right:80px;
+    margin-bottom:80px;
+              /* full width - space between cols * nr of inner spaces / number of cols */
+    width: calc((100% - 80px * 5) / 6);
+  }
+  .grid--6col .grid__item.grid__item--padding{
+            /* full width - space between cols * nr of inner spaces - padding * nr of paddings / number of cols */
+    width: calc((100% - 80px * 5 - 20px * 12) / 6);
+    padding:20px;
+  }
+  .grid--6col .grid__item--x2{
+              /*(      one grid item    ) * 2 + space between cols */
+    width: calc((((100% - 80px * 5) / 6) * 2) + 80px);
+  }
+  .grid--6col .grid__item--x2.grid__item--padding{
+    
+            /*   (    one grid item with padding  ) * 2 + space between cols + padding */
+    width: calc((((100% - 80px * 5 - 20px * 12) / 6) * 2) + 80px + 20px * 2);
+    padding:20px;
+  }
+  .grid--6col .grid__item--x3{
+              /*(      one grid item    ) * 3 + space between cols */
+    width: calc((((100% - 80px * 5) / 6) * 3) + 80px * 2);
+  }
+  .grid--6col .grid__item--x3.grid__item--padding{
+    
+            /*   (    one grid item with padding  ) * 3 + space between cols + padding */
+    width: calc((((100% - 80px * 5 - 20px * 12) / 6) * 3) + 80px * 2 + 20px * 4);
+    padding:20px;
+  }
+  .grid--6col .grid__item--x4{
+              /*(      one grid item    ) * 4 + space between cols */
+    width: calc((((100% - 80px * 5) / 6) * 4) + 80px * 3);
+  }
+  .grid--6col .grid__item--x4.grid__item--padding{
+    
+            /*   (    one grid item with padding  ) * 4 + space between cols + padding */
+    width: calc((((100% - 80px * 5 - 20px * 12) / 6) * 4) + 80px * 3 + 20px * 6);
+    padding:20px;
+  }
+  .grid--6col .grid__item--x5{
+              /*(      one grid item    ) * 5 + space between cols */
+    width: calc((((100% - 80px * 5) / 6) * 5) + 80px * 4);
+  }
+  .grid--6col .grid__item--x5.grid__item--padding{
+    
+            /*   (    one grid item with padding  ) * 5 + space between cols + padding */
+    width: calc((((100% - 80px * 5 - 20px * 12) / 6) * 5) + 80px * 4 + 20px * 8);
+    padding:20px;
+  }
+  .grid--6col .grid__item:nth-child(6n+6){
+    float:right;
+    margin-right:0px;
+  }
+
+  .grid__item--floated-right{
+    float:right !important;
+    margin-right:0px !important;
+  }
