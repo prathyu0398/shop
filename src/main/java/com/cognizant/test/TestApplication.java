@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-//@SpringBootApplication
-@EnableAutoConfiguration
+@SpringBootApplication
+
 @RestController
 @RequestMapping("/test")
 public class TestApplication {
@@ -20,7 +20,7 @@ public class TestApplication {
 	
 	@GetMapping
 	public String applicationStatus() {
-		return "</h2>Application is up and running</h2>";
+		return "</h2>Application is up and running by prathyusha</h2>";
 	}
 	
 	
